@@ -1,12 +1,14 @@
 name: TaxSys release guide sync
 on:
   schedule:
-    # GitHub Actions uses UTC. Thursday 20:00 JST; Friday 08:00 JST fallback.
+    # Thursday 20:00 JST, Friday 08:00 JST fallback (UTC)
     - cron: '0 11 * * 4'
     - cron: '0 23 * * 4'
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
   group: taxsys-release-sync
   cancel-in-progress: false
@@ -23,10 +25,17 @@ jobs:
       - name: Commit if changed
         run: |
           if git diff --quiet -- releases.json; then
-            echo 'No change'; exit 0
+            echo 'No change'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add releases.json
+            git commit -m 'docs: sync official TaxSys release notes'
+            git push
           fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add releases.json
-          git commit -m 'docs: sync official TaxSys release notes'
-          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
