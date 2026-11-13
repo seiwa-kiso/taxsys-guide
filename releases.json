@@ -3,33 +3,183 @@
   "releases": [
     {
       "version": "v3.6.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-6-0",
       "date": "2026-11-12",
-      "summary": "請求書と明細の突合、10の会計ソフトのツール設定統合、相続OCR、Googleカレンダーとタスクの双方向同期",
-      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+      "summary": "請求書と明細の突合、10の会計ソフトのツール設定（勘定科目・補助科目・税区分）の統合、相続の預金残高証明書・不動産書類のOCR、Googleカレンダーとタスクの双方向同期"
     },
     {
       "version": "v3.5.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-5-0",
       "date": "2026-10-29",
-      "summary": "MF仕訳形式での送信、弥生のツール設定統合と部門マスタ、マネージャーロール、PCA会計",
-      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+      "summary": "マネーフォワードの仕訳形式での送信、弥生のツール設定（勘定科目・補助科目・税区分）の統合管理と部門マスタ、マネージャーロール追加、PCA会計への対応"
     },
     {
       "version": "v3.4.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-4-0",
       "date": "2026-10-15",
-      "summary": "社会保険納付内訳管理、税区分の補助科目対応、ICS税抜税込選択、証憑リネーム、相続OCR一括編集",
-      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+      "summary": "社会保険の納付内訳管理と年間集計、勘定科目別税区分の補助科目対応、ICSの税込/税抜選択、証憑リネームの命名順序設定、相続の普通預金OCR一括編集"
     },
     {
       "version": "v3.3.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-3-0",
       "date": "2026-10-08",
-      "summary": "年末調整機能、仕訳ルール適用時の選択、相続関係説明図と口座管理の機能拡充",
-      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+      "summary": "年末調整機能の追加（従業員管理・控除証明書OCR・源泉徴収票OCR）、仕訳ルール適用時のルール選択、相続関係説明図・口座管理の機能拡充"
     },
     {
       "version": "v3.2.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-2-0",
       "date": "2026-10-01",
-      "summary": "発展会計対応、インボイス経過措置70%対応、相続機能拡充、仕訳ルールのタブ指定",
-      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+      "summary": "発展会計対応、インボイス経過措置（70%控除）対応（8会計ソフト）、相続機能拡充、仕訳ルールのタブ指定"
+    },
+    {
+      "version": "v3.1.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-1-0",
+      "date": "2026-09-17",
+      "summary": "MFA 二段階認証の追加、相続ステータス管理・アシスタント設定、ICS税区分カスタマイズ、顧問先所属・送付先住所の追加"
+    },
+    {
+      "version": "v3.0.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v3-0-0",
+      "date": "2026-09-03",
+      "summary": "相続機能の追加、勘定科目別税区分マスタ、振替伝票強化、管理コンソール新設、チャットボット開設"
+    },
+    {
+      "version": "v2.30.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-30-0",
+      "date": "2026-08-27",
+      "summary": "仕訳ルールの部門指定・キーワード保存、エプソンCSV出力改善"
+    },
+    {
+      "version": "v2.29.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-29-0",
+      "date": "2026-08-20",
+      "summary": "請求書PDF証憑単位分割OCR、部門コードマスタ管理（8会計ソフト対応）"
+    },
+    {
+      "version": "v2.28.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-28-0",
+      "date": "2026-08-13",
+      "summary": "担当者招待時の権限・所属設定、文書変換機能の追加、OCR部門コード一括編集"
+    },
+    {
+      "version": "v2.27.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-27-0",
+      "date": "2026-08-06",
+      "summary": "複合仕訳ルールの追加、クレジット残高アラートのしきい値設定"
+    },
+    {
+      "version": "v2.26.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-26-0",
+      "date": "2026-07-30",
+      "summary": "仕訳ルールの再適用・貸方科目・金額範囲対応、消費税区分「対象外」の追加、会計ソフト「ICS」対応、業務種別の事務所別カスタマイズ"
+    },
+    {
+      "version": "v2.25.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-25-0",
+      "date": "2026-07-23",
+      "summary": "仕訳ルール・科目コードの専用管理ページ新設と一括削除、JDL/MJS/TKCの補助科目対応、証憑振り分け・OCR出力の機能追加"
+    },
+    {
+      "version": "v2.24.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-24-0",
+      "date": "2026-07-16",
+      "summary": "PDF編集機能の強化（図形・スタンプ・画面分割など）、税務管理各画面へのカスタム項目・列設定の展開、名刺管理の改善・突合チェックの追加"
+    },
+    {
+      "version": "v2.23.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-23-0",
+      "date": "2026-07-09",
+      "summary": "名刺一覧の一括操作・CSVインポートに対応、決算管理に「カスタム項目」機能を追加、医療関連領収書向けのOCRに対応"
+    },
+    {
+      "version": "v2.22.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-22-0",
+      "date": "2026-07-02",
+      "summary": "名刺管理機能の追加、PDF結合・並べ替え機能の追加、会計ソフト「フリーウェイ」に対応"
+    },
+    {
+      "version": "v2.21.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-21-0",
+      "date": "2026-06-25",
+      "summary": "エプソン・勘定奉行のOCRに対応、一括編集メニューの追加、仕訳の勘定科目が選択式に（弥生/MF）"
+    },
+    {
+      "version": "v2.20.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-20-0",
+      "date": "2026-06-18",
+      "summary": "PDFデスク機能の追加、海外領収書のOCR・CSV出力対応、Moneyforwardの仕訳編集に対応"
+    },
+    {
+      "version": "v2.19.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-19-0",
+      "date": "2026-06-11",
+      "summary": "PDF編集機能の追加、TKC向けの仕訳データ出力に対応、アプリ内通知機能を追加しました"
+    },
+    {
+      "version": "v2.18.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-18-0",
+      "date": "2026-06-04",
+      "summary": "OCR出力結果画面における一括選択のUIを刷新、「納特」画面の追加、OCR処理の待ち時間と進捗確認表示機能を改善"
+    },
+    {
+      "version": "v2.17.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-17-0",
+      "date": "2026-05-28",
+      "summary": "取引総額修正時の消費税額の自動計算機能、仕訳に関する機能改善、「顧問先詳細」画面に「スケジュール管理」機能を追加"
+    },
+    {
+      "version": "v2.16.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-16-0",
+      "date": "2026-05-21",
+      "summary": "ユーザー招待機能の刷新（最大100名の一括招待に対応）、サイドバー表示権限の変更、「原価管理」一覧画面のUI変更"
+    },
+    {
+      "version": "v2.15.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-15-0",
+      "date": "2026-05-14",
+      "summary": "顧問先詳細画面から書類提出状況の直接編集機能の追加、JDL・MJS向け仕訳データ作成・CSV出力機能の追加"
+    },
+    {
+      "version": "v2.14.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-14-0",
+      "date": "2026-05-07",
+      "summary": "ダッシュボードの最適化、「会計ソフト未連携」件数の表示、サイドバー表示のON/OFF設定機能追加、弥生会計連携におけるインボイス区分80%対応"
+    },
+    {
+      "version": "v2.13.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-13-0",
+      "date": "2026-04-23",
+      "summary": "顧問先編集画面における「業種（自由入力）」項目の追加、「所属」設定機能の追加"
+    },
+    {
+      "version": "v2.12.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-12-0",
+      "date": "2026-04-16",
+      "summary": "共有ドライブの複数登録および自動振り分け機能の追加、「書類振り分け」画面における対象書類の追加"
+    },
+    {
+      "version": "v2.11.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-11-0",
+      "date": "2026-04-09",
+      "summary": "事務所・顧問先単位での仕訳ルール設定機能の追加≪弥生会計のみ≫、領収書フォルダの追加・編集・削除機能の追加"
+    },
+    {
+      "version": "v2.10.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-10-0",
+      "date": "2026-04-02",
+      "summary": "「利用状況インサイト」ページの追加、OCR処理完了後のファイル名自動リネーム機能の追加、AI-OCR追加購入における「1,000クレジット」プランの追加"
+    },
+    {
+      "version": "v2.9.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-9-0",
+      "date": "2026-03-23",
+      "summary": "顧問先詳細画面リニューアル、サイドバー構造改修、OCR編集機能強化"
+    },
+    {
+      "version": "v2.8.0",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases/v2-8-0",
+      "date": "2026-03-12",
+      "summary": "弥生会計向け仕訳データ作成、事前確定届出給与管理、期限後申告管理統合"
     }
   ]
 }
