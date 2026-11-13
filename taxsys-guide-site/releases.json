@@ -1,0 +1,35 @@
+{
+  "source": "https://docs.taxsys.so-labo.co.jp/releases",
+  "releases": [
+    {
+      "version": "v3.6.0",
+      "date": "2026-11-12",
+      "summary": "請求書と明細の突合、10の会計ソフトのツール設定統合、相続OCR、Googleカレンダーとタスクの双方向同期",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+    },
+    {
+      "version": "v3.5.0",
+      "date": "2026-10-29",
+      "summary": "MF仕訳形式での送信、弥生のツール設定統合と部門マスタ、マネージャーロール、PCA会計",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+    },
+    {
+      "version": "v3.4.0",
+      "date": "2026-10-15",
+      "summary": "社会保険納付内訳管理、税区分の補助科目対応、ICS税抜税込選択、証憑リネーム、相続OCR一括編集",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+    },
+    {
+      "version": "v3.3.0",
+      "date": "2026-10-08",
+      "summary": "年末調整機能、仕訳ルール適用時の選択、相続関係説明図と口座管理の機能拡充",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+    },
+    {
+      "version": "v3.2.0",
+      "date": "2026-10-01",
+      "summary": "発展会計対応、インボイス経過措置70%対応、相続機能拡充、仕訳ルールのタブ指定",
+      "url": "https://docs.taxsys.so-labo.co.jp/releases"
+    }
+  ]
+}
